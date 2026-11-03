@@ -1,0 +1,23 @@
+# 默认按文本处理，自动判定
+* text=auto
+
+# Windows 批处理必须是 CRLF，否则中文 Windows 下双击直接闪退
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 源码与文档统一 LF
+*.v   text eol=lf
+*.sv  text eol=lf
+*.vh  text eol=lf
+*.xdc text eol=lf
+*.tcl text eol=lf
+*.py  text eol=lf
+*.md  text eol=lf
+*.csv text eol=lf
+
+# 二进制
+*.bit binary
+*.wav binary
+*.png binary
+*.jpg binary
+*.pdf binary

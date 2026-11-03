@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 仿真 / 综合中间产物（可由 scripts/build.tcl 重新生成）----
+sim_out/
+*.jou
+*.log
+*.pb
+*.wdb
+*.sdb
+*.rlx
+*.str
+.Xil/
+xsim.dir/
+webtalk/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+~$*
